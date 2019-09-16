@@ -1,5 +1,6 @@
 import React from 'react';
 import { Card, Icon, Image, Header, Divider, Button, List, Segment, Grid, Form, Input, Select, Radio, TextArea, Checkbox, Message } from 'semantic-ui-react'
+import ContactForm from './Form.jsx'
 import '../App.css';
 
 import Anuska from '../static/Anuska.jpeg';
@@ -100,47 +101,8 @@ class Officers extends React.Component {
 			        </Card.Group>
 		      	</Grid.Column>
 			      <Grid.Column>
-			      	<Segment>
-			      		<Form>
-			      			<Form.Group widths='equal'>
-					          <Form.Field
-					            control={Input}
-					            label='First name'
-					            placeholder='First name'
-					          />
-					          <Form.Field
-					            control={Input}
-					            label='Last name'
-					            placeholder='Last name'
-					          />
-					          <Form.Field
-					            control={Select}
-					            label='Gender'
-					            options={Options}
-					            placeholder='Gender'
-					          />
-					        </Form.Group>
-					       <Form.Field
-					          control={TextArea}
-					          label='About'
-					          placeholder='Tell us more about you...'
-					        />
-					        <Form.Field
-					          control={Checkbox}
-					          label='I agree to the Terms and Conditions'
-					        />
-					        <Button type='submit' onClick = {(e) => this.handleFormCick()}>Submit</Button>
-		      				</Form>
-		      				<Message
-							    error
-							    hidden = {!this.state.showError}
-							    header='405 Method Not Implemented'
-							    list={[
-							      'I am too lazy to implement this.',
-							      'Blame the Vice President not me'
-							    ]}/>
-		      		<Divider hidden/>
-		      	</Segment>	
+			      		<ContactForm />
+		      			<Divider hidden/>
 		      </Grid.Column>
 		    </Grid>
 		    <Divider hidden/>

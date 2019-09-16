@@ -74,13 +74,6 @@ class NavigationBar extends React.Component {
             <Icon name='camera' />
             {Item5}
           </Menu.Item>
-          <Menu.Item 
-            name = {Item6}
-            active={activeItem === Item6}
-            onClick={(e, {name}) => this.handleitemClick(name)}>
-            <Icon name='phone square' />
-            {Item6}
-          </Menu.Item>
       </Sidebar>
   )};
 };
