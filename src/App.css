@@ -1,0 +1,29 @@
+.AppDiv {
+  background-color: #434355;
+} 
+
+.nav-text {
+    vertical-align:middle;
+}
+
+.textblock {
+  font-family: "fantasy";
+  color: #040a74;
+}
+
+.divCard {
+  width: 200px;
+  height: 500;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  background-color: #56c6ac;
+}
+
+p { 
+ color: #040a74; 
+} 
+
+.OfficerSegment{
+  background-color: #066407;
+  color: #ffbf00;
+}
