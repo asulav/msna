@@ -2,7 +2,7 @@
 
 In the project directory, you can run:
 
-### `Install NPM`
+### `brew install yarn`
 ### `yarn start`
 
 
