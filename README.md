@@ -10,4 +10,4 @@ In the project directory, you can run:
 To work on an Issue please create a branch with the corresponding name.
 This will make it easier to review said changes before adding them to the repo
 
-If you use windows, sorry buddy. SOL
+For windows users use Chocolatey
